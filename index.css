@@ -1,178 +1,275 @@
 body {
     background: #E4E6EB;
 }
+
 .container {
     background: #E4E6EB;
     display: flex;
     flex-direction: column;
     align-items: stretch;
 }
+
 .main_header {
     background: #FFFFFF;
     padding: 30px;
     font-family: "Inter", sans-serif;
+
     h1 span {
         color: #FFB400;
     }
+
     p {
         color: #767676;
     }
+
     button {
         background: #FFB400;
-        
+
         padding: 10px;
     }
 }
+
 .services {
     h2 {
-     font-family: "Inter", sans-serif;   
+        font-family: "Inter", sans-serif;
     }
+
     p {
-     color: #767676;   
+        color: #767676;
     }
+
     .service_cards {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 20px;
-        
-        
+
+
         .first_service_card {
             background: #FFFFFF;
             padding: 20px;
-         }
+        }
 
-         .second_service_card {
+        .second_service_card {
             background: #FFFFFF;
             padding: 20px;
-            
-         }
-         .third_services_card {
-            background: #FFFFFF;
-            padding: 20px;
-         }
 
-         .fourth_service_card {
+        }
+
+        .third_services_card {
             background: #FFFFFF;
             padding: 20px;
-            
-         }
-         .fourth_service_card img {
+        }
+
+        .fourth_service_card {
+            background: #FFFFFF;
+            padding: 20px;
+
+        }
+
+        .fourth_service_card img {
             width: 100px;
-         }
-         .fifth_service_card {
+        }
+
+        .fifth_service_card {
             background: #FFFFFF;
             padding: 20px;
-         }
-         .sixth_service_card {
+        }
+
+        .sixth_service_card {
             background: #FFFFFF;
             padding: 20px;
-         }
-         .sixth_service_card a{
+        }
+
+        .sixth_service_card a {
             color: #FFB400;
             border-color: #FFFFFF;
-         }
-        
-        
+        }
+
+
 
     }
 }
+
 .price_plans {
     h2 {
-         font-family: "Inter", sans-serif;  
+        font-family: "Inter", sans-serif;
     }
+
     h3 span {
         color: #767676;
     }
+
     p {
         color: #767676;
     }
+
     .plan_container {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         gap: 20px;
-        
+
     }
+
     .silver_plan {
         background: #FAFAFA;
         padding: 20px;
+
         ul {
             list-style: none;
-           color: #767676;
-           li:nth-child(1) {
-            span {
-                color: #FFB400;
-             }
-             color: black;
-           }
-           li:nth-child(2) {
-            color: black;
-            span {
-                color: #FFB400;
+            color: #767676;
 
+            li:nth-child(1) {
+                span {
+                    color: #FFB400;
+                }
+
+                color: black;
             }
-           }
+
+            li:nth-child(2) {
+                color: black;
+
+                span {
+                    color: #FFB400;
+
+                }
+            }
         }
+
         button {
             font-family: "Inter", sans-serif;
             width: 150px;
             background: #FFFFFF;
             border-radius: 15px;
             padding: 10px;
-            
+
         }
-     }
-     .gold_plan {
-         background: #FAFAFA;
+    }
+
+    .gold_plan {
+        background: #FAFAFA;
         padding: 20px;
+
         ul {
             list-style: none;
             color: #767676;
-             span {
+
+            span {
                 color: #FFB400;
-             }
-             li:nth-child(1) {
-                color: black;
-             }
-             li:nth-child(2) {
-                color: black;
-             }
-             li:nth-child(3) {
-                color: black;
-             }
-             li:nth-child(4) {
-                color: black;
-             }
             }
-            button {
-                font-family: "Inter", sans-serif;
+
+            li:nth-child(1) {
+                color: black;
+            }
+
+            li:nth-child(2) {
+                color: black;
+            }
+
+            li:nth-child(3) {
+                color: black;
+            }
+
+            li:nth-child(4) {
+                color: black;
+            }
+        }
+
+        button {
+            font-family: "Inter", sans-serif;
             width: 150px;
             background: #FFB400;
             border-radius: 15px;
             padding: 10px;
 
-            }
+        }
     }
+
     .diamond_plan {
-          background: #FAFAFA;
+        background: #FAFAFA;
         padding: 20px;
-     }
-     ul {
+    }
+
+    ul {
         list-style: none;
         padding: 20px;
+
         span {
             color: #FFB400;
 
         }
 
-     }
-     button {
+    }
+
+    button {
         font-family: "Inter", sans-serif;
-            width: 150px;
-            background: #FAFAFA;
-            border-radius: 15px;
-            padding: 10px;
+        width: 150px;
+        background: #FAFAFA;
+        border-radius: 15px;
+        padding: 10px;
 
-     }
-     
+    }
 
+
+}
+
+.recommendations {
+    h1 {
+        font-family: "Inter", sans-serif;
+        
+
+    }
+    p {
+        color: #767676;;
+    }
+    .review_container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+        
+        
+    }
+    .review_card_1 {
+        background-color: #FAFAFA;
+        padding: 20px;
+        .stars {
+            color: #FFB400;
+        }
+        .reviewer {
+         img {
+                width: 80px;
+                border-radius: 50%;
+                
+            }
+        }
+         }
+
+    .review_card_2 {
+         background-color: #FAFAFA;
+        padding: 20px;
+        .stars {
+            color: #FFB400;
+        }
+        .reviewer {
+            
+            img {
+                width: 80px;
+                border-radius: 50%;
+            }
+        }
+        
+    }
+    .review_card_3 {
+        background-color: #FAFAFA;
+        padding: 20px;
+        .stars {
+            color: #FFB400;
+        }
+        .reviewer {
+            img {
+                width: 80px;
+                border-radius: 50%;
+            }
+        }
+    }
 }
