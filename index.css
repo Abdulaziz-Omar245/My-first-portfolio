@@ -114,18 +114,65 @@ body {
         }
         button {
             font-family: "Inter", sans-serif;
-            width: 200px;
+            width: 150px;
             background: #FFFFFF;
-            
-            
+            border-radius: 15px;
             padding: 10px;
             
         }
+     }
+     .gold_plan {
+         background: #FAFAFA;
+        padding: 20px;
+        ul {
+            list-style: none;
+            color: #767676;
+             span {
+                color: #FFB400;
+             }
+             li:nth-child(1) {
+                color: black;
+             }
+             li:nth-child(2) {
+                color: black;
+             }
+             li:nth-child(3) {
+                color: black;
+             }
+             li:nth-child(4) {
+                color: black;
+             }
+            }
+            button {
+                font-family: "Inter", sans-serif;
+            width: 150px;
+            background: #FFB400;
+            border-radius: 15px;
+            padding: 10px;
 
-        
-            
-        
-        
+            }
     }
+    .diamond_plan {
+          background: #FAFAFA;
+        padding: 20px;
+     }
+     ul {
+        list-style: none;
+        padding: 20px;
+        span {
+            color: #FFB400;
+
+        }
+
+     }
+     button {
+        font-family: "Inter", sans-serif;
+            width: 150px;
+            background: #FAFAFA;
+            border-radius: 15px;
+            padding: 10px;
+
+     }
+     
 
 }
