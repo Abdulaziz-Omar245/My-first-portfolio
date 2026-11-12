@@ -1,0 +1,26 @@
+body {
+    background: #E4E6EB;
+}
+.container {
+    background: #E4E6EB;
+}
+header {
+    background-color: #FFFFFF;
+    padding: 10px;
+}
+h1 {
+    color: black;
+}
+h2 {
+    color: black;
+}
+h2 span {
+    color: #FFB400F2;
+}
+p {
+    color: #767676;
+    font-size: 16px;
+}
+header button {
+    color: #FFB400F2;;
+}
