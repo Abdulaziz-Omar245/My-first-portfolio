@@ -4,9 +4,11 @@ body {
 
 .container {
     background: #E4E6EB;
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    align-items: flex-start;
+    
 }
 
 .main_header {
@@ -24,6 +26,7 @@ body {
 
     button {
         background: #FFB400;
+        border: none;
 
         padding: 10px;
     }
@@ -47,6 +50,9 @@ body {
         .first_service_card {
             background: #FFFFFF;
             padding: 20px;
+            img {
+                color: #FFB400;
+            }
         }
 
         .second_service_card {
@@ -273,3 +279,300 @@ body {
         }
     }
 }
+ .education {
+    h2 {
+        font-family: "Inter", sans-serif;
+        }
+        p {
+            color:  #767676;
+        }
+        .education_container {
+            background: #FAFAFA;
+            padding: 20px;
+            
+
+        }
+        .education_item_1 {
+            background: #FAFAFA;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+         
+         .education_details {
+            h3 {
+                font-family: "Inter", sans-serif;
+            }
+            .student_info {
+                
+                p {
+                    font-family: "Inter", sans-serif;
+                    color: #2B2B2B;
+
+                }
+                span {
+                    border: 2px solid #FFB400;
+                    background: #FFB400;
+                    padding: 2px;
+                    color: #FAFAFA;
+                    
+                }
+            }
+         }
+         
+
+         }
+         .education_item_2{
+             background: #FAFAFA;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            
+            .student_info {
+                p {
+                  font-family: "Inter", sans-serif;
+                    color: #2B2B2B;  
+                }
+                span {
+                    border: 2px solid #FFB400;
+                    background: #FFB400;
+                    padding: 2px;
+                    color: #FAFAFA;
+                    
+                }
+
+            }
+            
+
+         }
+         .education_item_3 {
+              background: #FAFAFA;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+
+            .student_info  {
+            p {
+              font-family: "Inter", sans-serif;
+                    color: #2B2B2B;    
+            } 
+            span {
+                    border: 2px solid #FFB400;
+                    background: #FFB400;
+                    padding: 2px;
+                    color: #FAFAFA;
+                    
+                }
+            }
+         }
+         
+ }
+
+ .work_history {
+    h2 {
+        font-family: "Inter", sans-serif;
+        
+    }
+    p {
+       color:  #767676; 
+    }
+    .work_history_container {
+        background: #FAFAFA;
+            padding: 20px;
+    }
+    .work_item_1 {
+        background: #FAFAFA;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+
+            .work_details {
+                h3 {
+                 font-family: "Inter", sans-serif;   
+                }
+                .student_info {
+                    p {
+                    font-family: "Inter", sans-serif;
+                    color: #2B2B2B;
+
+                }
+                span {
+                    border: 2px solid #FFB400;
+                    background: #FFB400;
+                    padding: 2px;
+                    color: #FAFAFA;
+                    
+                }
+                }
+            }
+    }
+    .work_item_2 {
+        background: #FAFAFA;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+
+            .work_details {
+                 h3 {
+                 font-family: "Inter", sans-serif;   
+                }
+                .student_info {
+                   p {
+                    font-family: "Inter", sans-serif;
+                    color: #2B2B2B;
+
+                }
+                span {
+                    border: 2px solid #FFB400;
+                    background: #FFB400;
+                    padding: 2px;
+                    color: #FAFAFA;
+                    
+                } 
+                }
+            }
+    }
+    .work_item_3 {
+         display: grid;
+            grid-template-columns: 1fr 1fr;
+
+            .work_details {
+                font-family: "Inter", sans-serif;
+            }
+
+            .student_info {
+                
+                 p {
+                    font-family: "Inter", sans-serif;
+                    color: #2B2B2B;
+
+                }
+                span {
+                    border: 2px solid #FFB400;
+                    background: #FFB400;
+                    padding: 2px;
+                    color: #FAFAFA;
+                    
+                } 
+            }
+    }
+
+
+ }
+  .aside_container {
+    background:  #FAFAFA;
+    padding: 20px;
+    
+
+
+    .profile {
+        img {
+            width: 250px;
+            height: 300px;
+            border-radius: 50%;
+        }
+        h2 {
+           font-family: "Inter", sans-serif;; 
+        }
+        p {
+            color:  #767676 ;
+        }
+    }
+    .personal_information li {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        list-style: none;
+        span {
+            border: 2px solid #FFB400;
+            background: #FFB400;
+            margin: 10px;
+        }
+    }
+    .languages {
+        li {
+            color:  #767676;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+    .skills {
+        li {
+           color:  #767676;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;  
+        }
+    }
+    .Extra_Skills li {
+        color: #767676;
+
+    }
+    button {
+        border: none;
+        background: #FFB400;
+        padding: 10px;
+    }
+
+
+  }
+
+ .main_information {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    align-items: flex-start;
+    
+    
+
+    .contact_left {
+        background: #FAFAFA;
+        padding: 20px;
+        
+    
+    .contact_form_1 {
+        input {
+            background-color: #E4E6EB;
+            border: none;
+            margin: 5px;
+            width: 300px;
+            height: 40px;
+            
+        }
+
+    }
+    .contact_form_2 {
+        input {
+           background-color: #E4E6EB;
+            border: none;
+            margin: 5px;
+            width: 400px;
+            height: 100px; 
+        }
+    }
+    button {
+        background: #FFB400;
+        border: none;
+    }
+    }
+    
+    .adress_info_1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background: #FAFAFA;
+        padding: 20px;
+        margin: 30px;
+    }
+    .contacts {
+         display: grid;
+        grid-template-columns: 1fr 1fr;
+        background: #FAFAFA;
+        padding: 20px;
+        margin: 30px;
+    }
+    .support_details {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background: #FAFAFA;
+        padding: 20px;
+        margin: 30px;
+    }
+ }
+
+   
